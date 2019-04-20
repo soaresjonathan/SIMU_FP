@@ -9,7 +9,7 @@ public class Principal {
 		dadosCarga(); // CHAMANDO O MÉTODO DADOSCARGA
 		
 	}
-
+//teste do commit
 	public static void dadosCarga() {// MÉTODO COM MENU PARA CARREGAR AS CARGAS ELETRICAS E SEUS DADOS
 
 		int opcao = 0;// DECLARANDO VARIÁVEL DO TIPO INT USADO PARA ESCOLHA DA OPÇÃO
@@ -27,6 +27,7 @@ public class Principal {
 			System.out.println("Opção 0 - Sair do programa");
 			System.out.println("_______________________");
 			System.out.print("Digite aqui sua opção: ");
+			
 
 			opcao = Integer.parseInt(sc.nextLine());// PEDE PARA ENTRAR COM UM INTEIRO PARA SELECIONAR QUAL OPÇÃO NO
 													// MENU PRINCIPAL
