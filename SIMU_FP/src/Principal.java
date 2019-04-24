@@ -9,7 +9,7 @@ public class Principal {
 		dadosCarga(); // CHAMANDO O MÉTODO DADOSCARGA
 		
 	}
-//teste do commit
+
 	public static void dadosCarga() {// MÉTODO COM MENU PARA CARREGAR AS CARGAS ELETRICAS E SEUS DADOS
 
 		int opcao = 0;// DECLARANDO VARIÁVEL DO TIPO INT USADO PARA ESCOLHA DA OPÇÃO
@@ -152,7 +152,7 @@ public class Principal {
 					System.out.println("*********** FP abaixo de 0.92 ************");
 					System.out.println("Somatório das potências: " + df.format(varSomaKw) + " kW");
 					System.out.println("Potência aparente total medida: " + df.format(varRandonSomaKw));
-					System.out.println("Fator de potência alto: " + df.format(varFP_baixo));
+					System.out.println("Fator de potência baixo: " + df.format(varFP_baixo));
 					System.out.println("Potência reativa total medida: " + df.format(varKvarFpBaixo) + " kVAr");
 					System.out.println("Potência ativa total medida: " + df.format(varKwFpBaixo) + " kW");
 					System.out.println("**************************************************");
