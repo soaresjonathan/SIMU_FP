@@ -1,8 +1,6 @@
 public class Carga {
 	
-	public Carga() { //CONSTRUTOR
-		
-	}
+	
 	private String nome;
 	private Integer potencia;
 
@@ -18,9 +16,5 @@ public class Carga {
 	public void setPotencia(Integer potencia) {
 		this.potencia = potencia;
 	}
-	/*		
-	@Override
-	public String toString() {
-		return "Nome: " + nome + "" + "\n" + "Potência: " + potencia + " W" + "\n";
-	}*/
+
 }
